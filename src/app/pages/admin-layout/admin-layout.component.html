@@ -1,0 +1,24 @@
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <input type="checkbox" id="active">
+    <label for="active" class="menu-btn"><span></span></label>
+    <label for="active" class="close"></label>
+    <div class="wrapper">
+        <h1 class="text-white text-center mt-10">Select your choice</h1>
+        <ul>
+            <li><a href="/admin">Home</a></li>
+            <li><a href="/admin/list">List</a></li>
+            <li><a href="/admin/add">Add</a></li>
+            <li><a href="#" routerLink="/signin">Signin</a></li>
+            <li><a href="#" routerLink="/signup">Signup</a></li>
+        </ul>
+    </div>
+
+</body>
+
+<router-outlet></router-outlet>

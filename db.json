@@ -1,0 +1,30 @@
+{
+  "products": [
+    {
+      "name": "adasdsa",
+      "image": "https://hoanghamobile.com/tin-tuc/wp-content/uploads/2023/07/anh-dep-thien-nhien-2-1.jpg",
+      "quantity": 555,
+      "active": false,
+      "id": 2
+    },
+    {
+      "name": "Sanr pham 15",
+      "image": "https://www.vietnamworks.com/hrinsider/wp-content/uploads/2023/12/anh-dep-thien-nhien-3d-003.jpg",
+      "quantity": 100,
+      "active": true,
+      "id": 3
+    }
+  ],
+  "users": [
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$qvvCVEbPauYOVxVVm.dc6e2EfFZjeze7c.jcCORKDOT0VGhfzs7AG",
+      "id": 1
+    },
+    {
+      "email": "emhank@gmail.com",
+      "password": "$2a$10$j3vHAGAtK168YpMPGKKsveV3mj3./VYgcmS4q2h9iJneySQrez4g2",
+      "id": 2
+    }
+  ]
+}
